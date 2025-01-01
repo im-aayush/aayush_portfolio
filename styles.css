@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: #66FCF1;
+}
+
+header {
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color:#66FCF1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+
+.home img {
+    width: 160px;
+    height: 145px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #45A29E;
+}
+
+.about, .skills, .contact {
+    padding: 20px;
+    text-align: center;
+}
+.aboutp
+{
+    margin:5px;
+    padding: 3px;
+    text-align: center;
+    color: #C5C6C7;
+}
+
+.skills img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.contact-message{
+    color: #c3dad5;
+    text-align: center;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.contact-me{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn {
+    background: #1f2833;
+    background-image: -webkit-linear-gradient(top, #1f2833, #11999e);
+    background-image: -moz-linear-gradient(top, #1f2833, #11999e);
+    background-image: -ms-linear-gradient(top, #1f2833, #11999e);
+    background-image: -o-linear-gradient(top, #1f2833, #11999e);
+    background-image: linear-gradient(to bottom, #1f2833, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: honeydew;
+}
+.copyright{
+    text-align: center;
+    color: #C5C6C7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:bold;
+}
+.payment{
+    text-align:right;
+}
