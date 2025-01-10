@@ -4,7 +4,11 @@ body {
     background-color: black;
     color: #66FCF1;
 }
-
+.logo
+{
+    height: 100px;
+    width: 100px;
+}
 header {
     background-color:black;
     display: flex;
